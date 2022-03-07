@@ -1,0 +1,231 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/hetu.gpu_links.rst:2 b44d53b103f248bdbe45ba3a4a3c4880
+msgid "hetu.gpu\\_links package"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:5 d7c325ef72cd44a1af3f06918f63f318
+msgid "Submodules"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:8 e4cc71dff1bd49adb6039637cdf6c2df
+msgid "hetu.gpu\\_links.AddConstLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:16 40e7f8de64fd4b4693ca692d77ed95ce
+msgid "hetu.gpu\\_links.AddElewiseLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:24 4bbf7c898f664ff68722f5b95f1d04ff
+msgid "hetu.gpu\\_links.ArraySetLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:32 57f8b85d04ed44fd91cc4eecc85ffe7e
+msgid "hetu.gpu\\_links.AvgPoolLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:40 2a1d7b30b13240b4ae0dd793f20dd9d5
+msgid "hetu.gpu\\_links.BatchMatrixMultLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:48 e69a046ec13643ab8cfeff314f7b27bc
+msgid "hetu.gpu\\_links.BinaryCrossEntropyLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:56 096ef28ec1f74416a317cc2c291d0da1
+msgid "hetu.gpu\\_links.BroadcastLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:64 da70178b2475401393d9ff1bb529afc8
+msgid "hetu.gpu\\_links.BroadcastShapeLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:72 8004e577529a41e2a8a68d5a831e8196
+msgid "hetu.gpu\\_links.ConcatLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:80 7e4dd729bb09429eba1d0d8945a96f03
+msgid "hetu.gpu\\_links.Conv2dBroadcastLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:88 c3cf9d2c16fe4fcb9fadd223a00525fe
+msgid "hetu.gpu\\_links.Conv2dLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:96 4eca1dc402cc4fbbb2c0a327f8cd04c6
+msgid "hetu.gpu\\_links.Conv2dReduceSumLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:104 e704f4f1279945debf905bd934b0cea1
+msgid "hetu.gpu\\_links.CuSparseLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:112 b98b025805ce458494b49198878962fe
+msgid "hetu.gpu\\_links.CudnnAvgPoolLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:120 ea88bffc12944f07b741f2187c919cf3
+msgid "hetu.gpu\\_links.CudnnBnLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:128 db445af50b2442d8a4f8bcb747de6284
+msgid "hetu.gpu\\_links.CudnnConv2d module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:136 9e04b3d469c1491ea6e7fc6789364a7b
+msgid "hetu.gpu\\_links.CudnnDropoutLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:144 d2e5730975ab4b66adc3b97ee7e3fdc2
+msgid "hetu.gpu\\_links.CudnnMaxPoolLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:152 b6d9fc846eb349e1b4ab7b147ae8d342
+msgid "hetu.gpu\\_links.CudnnSoftmaxCrossEntropyLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:160 1bbeff4c1f4f4154ac57b6b6f5326571
+msgid "hetu.gpu\\_links.CudnnSoftmaxLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:168 bbf8b45a56dd48aa9e93c134024fd600
+msgid "hetu.gpu\\_links.DotLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:176 add84b6de7f84c2cb2a3434998a54ddf
+msgid "hetu.gpu\\_links.DropoutLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:184 b70beda806a94ab283ff5c6a60221789
+msgid "hetu.gpu\\_links.EmbeddingLookUpLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:192 8b46c809d05d483c91238aaa7badd15c
+msgid "hetu.gpu\\_links.IndexedSliceLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:200 852fccd7895f45ef82f7d2605b5b5474
+msgid "hetu.gpu\\_links.InitializersLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:208 aa5df8095892445e875adab1ccad443a
+msgid "hetu.gpu\\_links.LayerNormLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:216 b954432743f14cbea8c8628182a64e20
+msgid "hetu.gpu\\_links.MatrixDivideConstLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:224 29f2a9ad61a444b99675bdc0d9c1662f
+msgid "hetu.gpu\\_links.MatrixDivideLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:232 60685a99d65a41b3acaa016303633ee8
+msgid "hetu.gpu\\_links.MatrixMultLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:240 3c2bc7404e254d7b86c325efd31d1ffe
+msgid "hetu.gpu\\_links.MatrixRsqrtLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:248 504aa15c208345b0ae098c3d32c4148f
+msgid "hetu.gpu\\_links.MatrixSqrtLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:256 0884352fce3b475f8e6f4e9b20d1e238
+msgid "hetu.gpu\\_links.MatrixTransLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:264 03b2a0f07ed444f1b7ebf13cea34bed8
+msgid "hetu.gpu\\_links.MaxPoolLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:272 e222e46c661e4b61a962283e49e01b7b
+msgid "hetu.gpu\\_links.MultiplyConstLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:280 ca63157a96714512a49b7c9e5764f821
+msgid "hetu.gpu\\_links.MultiplyElewiseLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:288 1906143d74b848fa8e2139d1ee4e006f
+msgid "hetu.gpu\\_links.OneHotLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:296 e1ea7a0631a84ffab473c0c59d3c505b
+msgid "hetu.gpu\\_links.OppositeLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:304 a558e70d572a4898916bc2557bb22f84
+msgid "hetu.gpu\\_links.OptimizerLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:312 88d19204a1f042eeb49cb093b1b08c9a
+msgid "hetu.gpu\\_links.PadLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:320 8acf3f1506ad4d8eb035094883a13510
+msgid "hetu.gpu\\_links.ReduceMeanLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:328 7935e851667d40e0bbaec7d0f8c110f3
+msgid "hetu.gpu\\_links.ReduceSumAxisZeroLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:336 654811aab33642f8a14ce5db997ee027
+msgid "hetu.gpu\\_links.ReduceSumLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:344 bb44b97b8d2b43f397a4c706032100e4
+msgid "hetu.gpu\\_links.ReluLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:352 89461653e30a419faaf5acf59db0d1c2
+msgid "hetu.gpu\\_links.ReshapeLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:360 3e205ed47e77424e8a0e8769bb5429ce
+msgid "hetu.gpu\\_links.SigmoidLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:368 ef2ddeb6397c4682ae301d3f39453e1d
+msgid "hetu.gpu\\_links.SliceLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:376 24a574c45c0344bfb9eb35986de0fd02
+msgid "hetu.gpu\\_links.SoftmaxCrossEntropyLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:384 c57ab1d4b2654e06b3062e4b3e30dfbb
+msgid "hetu.gpu\\_links.SoftmaxLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:392 a0beffcfe0cb43a980bd8f73d745221c
+msgid "hetu.gpu\\_links.TanhLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:400 6bd4d05c255b4e47bf48f9f73ede9552
+msgid "hetu.gpu\\_links.WhereLink module"
+msgstr ""
+
+#: ../../source/hetu.gpu_links.rst:408 6bdc258c06b84235bd6393208301e8b8
+msgid "Module contents"
+msgstr ""
+

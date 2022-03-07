@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/HetuML/AutoML/GBDT/contents_en.md:1
+#: 87c0aeb6a4bc474ca97f2e007675a25c
+msgid "GBDT"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/GBDT/contents_en.md:3
+#: c53c80f487354f08809024370a8e946f
+msgid ""
+"Here is a simple Python demo to show how to use AutoML module in HetuML "
+"for auto-tuning on Gradient Boosting Decision Tree(GBDT) in HetuML."
+msgstr ""
+
+#: ../../source/HetuML/AutoML/GBDT/contents_en.md:5
+#: 80f98678f47241428439f1391c6b1c9e
+msgid ""
+"Before tuning on the models, we need to define a search space for the "
+"current model, as well as an optimization function."
+msgstr ""
+
+#: ../../source/HetuML/AutoML/GBDT/contents_en.md:7
+#: 08af121cb75645dd9289f77a97f50ea6
+msgid "Define Hyper-parameters Search Space"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/GBDT/contents_en.md:9
+#: 7b26950cd60f4f328e7c16288eb5df6c
+msgid ""
+"Firstly, we utilize ConfigSpace library to define search space for hyper-"
+"parameters. We select a few hyper-parameters for tuning as an example, "
+"and you could easily change the tuning hyerper-parameters according to "
+"your need.  The example is as follows:"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/GBDT/contents_en.md:29
+#: 380e379ee04a451493204557bcd9c125
+msgid ""
+"You can adaptively set hyper-parameters to its corresponding types(e.g., "
+"UniformFloatHyperparameter,  Constant)."
+msgstr ""
+
+#: ../../source/HetuML/AutoML/GBDT/contents_en.md:31
+#: 79b366ffc02f4fd69042b37e54e5d1ea
+msgid "Define Optimization Function"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/GBDT/contents_en.md:33
+#: 096fbb8410df4540ac6c07e660be91e2
+msgid ""
+"Next, you could define optimizing function for this model, and in this "
+"example, here we set the optimizing objective to the minimization of log "
+"loss."
+msgstr ""
+
+#: ../../source/HetuML/AutoML/GBDT/contents_en.md:35
+#: ae345be53e43442c9dab798ed4dea872
+msgid ""
+"We then define the objective function. The train set is used in the "
+"objective function to train the GBDT model, and the validation set is "
+"used to predict:"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/GBDT/contents_en.md:69
+#: 684a7d97cbb5400381274d44c8852c6a
+msgid "Hyper-parameter Tuning"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/GBDT/contents_en.md:71
+#: 221b7c3477034823b5b10c34aea2eea8
+msgid ""
+"After the above steps, you could call SMBO for optimization. Here we set "
+"the maximal rounds of hyper-parameter tuning to 30, which represents that"
+" the maximal tuning times for HetuML Gradient Boosting Decision Tree is "
+"30. And we set the time limit for each term of validation to 180 seconds,"
+" and the timeout task will be terminated."
+msgstr ""
+
+#: ../../source/HetuML/AutoML/GBDT/contents_en.md:84
+#: b14849d0edf14d39a43452f58e59d6f1
+msgid "Finally, you could print out  the result："
+msgstr ""
+

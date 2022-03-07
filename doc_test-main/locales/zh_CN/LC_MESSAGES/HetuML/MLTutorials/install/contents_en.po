@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/HetuML/MLTutorials/install/contents_en.md:1
+#: c8106fd05d324326ae679c57ee3040ef
+msgid "HetuML Installation Guide"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents_en.md:3
+#: a736ccc0c2774fd89a80fb2b42179ae8
+msgid "Building HetuML from source code consists the following steps:"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents_en.md:5
+#: 1b714e45d0e4434eb3877d21a779a077
+msgid "Clone the code"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents_en.md:7
+#: 36569c66ab5c4eed9308e417320ee36c
+msgid "Users need to clone the code from GitHub:"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents_en.md:13
+#: 9a613ea102cb4aa9b4561ffe554fbb5b
+msgid "Enviroment Requirements"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents_en.md:15
+#: e43fe69afccb4ceb9e280ecc5111fc1b
+msgid "CMake >= 3.11"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents_en.md:17
+#: 2f4c4f0e947f40879f2596c32bbafec5
+msgid "downloads:  https://cmake.org/download/"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents_en.md:18
+#: fb5ddd0725ba47cca626fb1c7a1697a2
+msgid "Protobuf >= 3.0.0"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents_en.md:20
+#: 632d322b2b6c4761b2454364f094a7af
+msgid "downloads: https://github.com/protocolbuffers/protobuf/releases"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents_en.md:21
+#: e51571cf49a34d4a88026da371daf4f6
+msgid "OpenMP"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents_en.md:23
+#: 40bdb87c058148638b5964f7fdcf83c0
+msgid "downloads: https://www.open-mpi.org/software/ompi/"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents_en.md:25
+#: c88478e8dd6d4b3db29450a3daf04297
+msgid "Build from Source Code"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents_en.md:27
+#: 82d4293a6b23447dad9361d5fbabd464
+msgid "Users need to execute the following command in the source code folder:"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents_en.md:33
+#: 680ab44950814351ac12d8156ab6ea66
+msgid "Then, you could compile HetuML:"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents_en.md:41
+#: 57d07f86a60948b0a79964ab2028d122
+msgid "If the building is successfull, type this command："
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents_en.md:47
+#: 285d63ea101f4c86989a2292841c2d48
+msgid "Work with HetuML"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents_en.md:49
+#: d570b03b06f84d21a108e24d5ff0fcb8
+msgid "You can work with HetuML now!"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents_en.md:51
+#: cd953b23dfa448159e1a0c6e38a9aa8e
+msgid ""
+"You could quickly try out HetuML on a small demo in the quick start "
+"tutorial."
+msgstr ""
+

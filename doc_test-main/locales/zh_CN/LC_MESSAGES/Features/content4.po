@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/Features/content4.md:1 f9cc3d0d619d4dcc97e7c675c9d06e49
+msgid "Huge Embedding Model Training"
+msgstr ""
+
+#: ../../source/Features/content4.md:4 0b69c160781a4cd98e4e94752d44dfe6
+msgid ""
+"Embedding models have been recognized as an effective learning paradigm "
+"for high-dimensional data. However, one open issue of embedding models "
+"lies in its representation (latent factors) often resulting in large "
+"parameter space. We observe existing distributed training frameworks face"
+" a scalability issue of embedding models since updating and retrieving "
+"the shared embedding parameters from servers usually dominate the "
+"training cycle."
+msgstr ""
+
+#: ../../source/Features/content4.md:6 dcb2a78405fc489a96eecdd29eb70da0
+msgid ""
+"We propose a new system framework that signiffcantly improves the "
+"scalability of huge embedding model training. We embrace skewed "
+"popularity distributions of embeddings as a performance opportunity and "
+"leverage it to address the communication bottleneck with an embedding "
+"cache. To ensure consistency across the caches, we incorporate a new "
+"consistency model into the system design, which provides fine-grained "
+"consistency guarantees on a per-embedding basis."
+msgstr ""
+
+#: ../../source/Features/content4.md:13 2e2e513078fe4bcdac84b160d194ab14
+#, python-format
+msgid ""
+"Evaluations show that it achieves up to 80% embedding communication "
+"reductions and up to 20x performance speedup over the state-of-the-art "
+"baselines."
+msgstr ""
+

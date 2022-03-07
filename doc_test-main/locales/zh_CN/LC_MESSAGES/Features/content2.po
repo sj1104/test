@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/Features/content2.md:1 260ddb64213c470b9c5a6d1e4cccab20
+msgid "Heterogeneity-aware Training"
+msgstr ""
+
+#: ../../source/Features/content2.md:4 75622ed3f4914dc08d5557a1cf2c25d3
+msgid ""
+"All-reduce is the key communication primitive used in distributed data-"
+"parallel training due to the high performance in the homogeneous "
+"environment. However, All-reduce is sensitive to stragglers and "
+"communication delays as deep learning has been increasingly deployed on "
+"the heterogeneous environment like cloud."
+msgstr ""
+
+#: ../../source/Features/content2.md:6 5a630925863e4687aa23a9ab77a302a9
+msgid ""
+"We propose and analyze a novel variant of all-reduce, called partial-"
+"reduce, which provides high heterogeneity tolerance and performance by "
+"decomposing the synchronous all-reduce primitive into parallel-"
+"asynchronous partial-reduce operations."
+msgstr ""
+
+#: ../../source/Features/content2.md:10 de3b31f69b934b93957059b60f47ad12
+msgid ""
+"We provide theoretical guarantees, proving that partial-reduce converges "
+"to a stationary point at the similar sub-linear rate as distributed SGD. "
+"To enforce the convergence of the partial-reduce primitive, we further "
+"propose a dynamic staleness-aware distributed averaging algorithm and "
+"implement a novel group generation mechanism to prevent possible update "
+"isolation in heterogeneous environments. The experiments on real "
+"production cluster show that it is 1.21×-2× faster than other state-of-"
+"the-art baselines."
+msgstr ""
+
+#: ../../source/Features/content2.md:12 911a5c21de1f4d72ab4c4be38db92bb3
+msgid ""
+"Our paper has been published in SIGMOD 2021. Please cite our paper if you"
+" use it."
+msgstr ""
+

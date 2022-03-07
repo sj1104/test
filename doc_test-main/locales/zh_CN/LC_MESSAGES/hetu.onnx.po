@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/hetu.onnx.rst:2 71fd34ebade84a10a88df798bb1dfe59
+msgid "hetu.onnx package"
+msgstr ""
+
+#: ../../source/hetu.onnx.rst:5 21f9a5b74b0a479d9174ba46413a73c1
+msgid "Subpackages"
+msgstr ""
+
+#: ../../source/hetu.onnx.rst:14 e22758934da846cf8539dbc5cdcc7493
+msgid "Submodules"
+msgstr ""
+
+#: ../../source/hetu.onnx.rst:17 f2a1766111ba4e8db60b1273ddc0087c
+msgid "hetu.onnx.constants module"
+msgstr ""
+
+#: ../../source/hetu.onnx.rst:25 9647d53661374353b76b40621fa9b026
+msgid "hetu.onnx.graph module"
+msgstr ""
+
+#: ../../source/hetu.onnx.rst:33 0a1ffe0f9d2041979fc2cdd94ec9e26e
+msgid "hetu.onnx.handler module"
+msgstr ""
+
+#: ../../source/hetu.onnx.rst:41 bf05e80b173e49bc9ff6d28eec4f4a4b
+msgid "hetu.onnx.hetu2onnx module"
+msgstr ""
+
+#: ../../source/hetu.onnx.rst:49 b29ff130607a456fbded77588b315fe7
+msgid "hetu.onnx.onnx2hetu module"
+msgstr ""
+
+#: ../../source/hetu.onnx.rst:57 a09603ef3d1441efbe316799624cd5c9
+msgid "hetu.onnx.util module"
+msgstr ""
+
+#: ../../source/hetu.onnx.rst:65 0068862503654eeea90390bc4b3ede81
+msgid "Module contents"
+msgstr ""
+

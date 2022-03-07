@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/HetuML/MLTutorials/install/contents.md:1
+#: 1b1068af3206401a8470e35abf784971
+msgid "HetuML安装手册"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents.md:3
+#: c9b54faf2fab48ed83f87ea193d3e8eb
+msgid "从源码编译安装HetuML"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents.md:5
+#: dc4e03a704314b6882446f3d815c788f
+msgid "如果你希望通过编译源码安装HetuML，可以参考HetuML源码仓库的README，并请按照以下步骤进行。"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents.md:7
+#: 5554224c6ab14067a634f8667012e7ad
+msgid "克隆仓库"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents.md:9
+#: c731a8d2746d41f7b234dc8b3c5f8e36
+msgid "执行以下命令克隆HetuML仓库："
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents.md:15
+#: eb0c989c6f354bc2ab0e33eac8968e80
+msgid "环境准备"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents.md:17
+#: 3ea1687bc87e400bbf16ba9e933d0aba
+msgid "CMake >= 3.11"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents.md:18
+#: 5f81f4b6c3c14528bd74546c0c3505cb
+msgid "您可以通过CMak的官网下载地址：https://cmake.org/download/，根据自己的操作系统以及需要版本，选择相应版本进行安装下载。"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents.md:19
+#: faabc58af5c0470c8ae0b508f964f297
+msgid "Protobuf >= 3.0.0"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents.md:20
+#: f78fcea194064af889105a29eac9cec8
+msgid "您可以通过Protobuf官网地址https://github.com/protocolbuffers/protobuf/releases，根据自己的需要，选择相应版本进行安装下载。"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents.md:21
+#: 8c9dc3a5e38b47d485dd843cc1c605f2
+msgid "OpenMP"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents.md:22
+#: 3cb3ac3008f84e2fb72c2995db10212e
+msgid "您可以通过https://www.open-mpi.org/software/ompi/选择适合的OpenMP版本并下载。"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents.md:24
+#: ac6b91dc63d74a14914bab49e83d7e9d
+msgid "HetuML安装与编译"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents.md:26
+#: 7230d12b6c9d497bb81dc4681e839e06
+msgid "在编译之前，请在HetuML的代码目录下执行以下命令："
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents.md:32
+#: f31a07eb002346cd9592706d8bec7c9c
+msgid "然后，通过以下命令进行安装与编译："
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents.md:40
+#: bc84c79680e14b77934b75b9a47215c4
+msgid "最后，通过以下指令设置环境变量："
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents.md:46
+#: dd54746a537641dfb283f0a1baa14eca
+msgid "使用HetuML"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents.md:48
+#: 9cc91e2c507b4a95bb30a62e62315f43
+msgid "恭喜您，至此，您已经完成了HetuML的安装工作。"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/install/contents.md:50
+#: 75d16228acd848a2bc6ce416679069d2
+msgid "您可以在快速入门部分查看如何使用HetuML。"
+msgstr ""
+

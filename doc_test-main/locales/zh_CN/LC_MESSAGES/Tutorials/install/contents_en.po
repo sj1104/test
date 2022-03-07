@@ -1,0 +1,201 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/Tutorials/install/contents_en.md:1
+#: ee896aa1a5334b9f892f1da157d875d1
+msgid "Installation Guide"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:3
+#: 57ec9fe83fbc431fa3966da9da190483
+msgid "Building Hetu from source code consists the following steps:"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:5
+#: 06cecc03ea8440bd9f39f6b47751f42c
+msgid "Clone the code"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:7
+#: a3d747ae41f84ab795024bd00e2025f7
+msgid "Users need to clone the code from GitHub:"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:13
+#: e16784de9400465a8709a5287855229a
+msgid "Enviroment Requirements"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:15
+#: 0fdd5198bba24ec490e747a8a5cf2c8f
+msgid "Python>=3.6"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:16
+#: 63aebb2612d84f8cadf18881d7cd8689
+msgid "OpenMP"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:17
+#: 9f9588cd6851497594a3a31c6551dd27
+msgid "CMake>=3.18"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:18
+#: 852b6fa217974543aaf41fd166f78a56
+msgid ""
+"Hetu provides both mkl version and gpu version for users, you could "
+"adaptively select from them to meet your needs. The two versions could be"
+" installed at the same time."
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:20
+#: 3b9c32ae07604346bcfe5cea0725e691
+msgid "1) MKL version："
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:22
+#: 6a0c78f283464f6fa03e253e5807ee17
+msgid "MKL 1.6.1"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:24
+#: 049dc852b6e7412ea53f508d29a64c12
+msgid ""
+"You could automatically download mkl in Hetu. If you want to manually "
+"install mkl, please follow:"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:26
+#: d07ff917325b401f8a56d8baf6e3d4da
+msgid "downloads: https://github.com/intel/mkl-dnn/archive/v1.6.1.tar.gz"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:28
+#: f84ba317665f4b3780bccea036e4de1a
+msgid "compile："
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:34
+#: d56260871f8948b6ad4f1bb07eae75ab
+msgid ""
+"Change MKL_ROOT into /path/to/root and change MKL_BUILD into "
+"/path/to/build in cmake/config.cmake. cmake is the source directory of "
+"Hetu."
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:36
+#: 8716b7be5a4f49e793b3217111c34e84
+msgid "2) GPU version:"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:38
+#: e5e2a2cc61934f03b56f6169d08186ef
+msgid "CUDA Toolkit 10.1"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:40
+#: 61ceb7ece44142cb834d301c2db2c599
+msgid "cuDNN v7.5+"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:42
+#: 3a9aedbd17b5408b9809f1f05f5c0505
+msgid "You could follow these steps to install CUDA and CuDNN:"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:44
+#: fb07c2d83fce44cca58efd6f19936ce5
+msgid "download CUDA at: https://developer.nvidia.com"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:46
+#: 258a1ba1487640149807dce8d20113a3
+msgid "set Cuda path at cmake/config.cmake"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:48
+#: d32c531bad854eb38cb0f1b87ab48373
+msgid "Installation"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:50
+#: ec330a07092d438592931ddacd5ea5b9
+msgid ""
+"According to your installed Hetu version, please change module path in "
+"cmake/config.cmake as follows:"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:52
+#: 888b9f0194cd43b2b49bf5a83627eeca
+msgid "If you choose MKL version, please add : set(HETU_VERSION \"mkl\")"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:54
+#: e75b4741c0a04017ad120219e1ef9cf5
+msgid "If you choose GPU version, please add : set(HETU_VERSION \"gpu\")"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:56
+#: cc21b7d53ca3445f989c7322104cf4a5
+msgid "If both versions are installed, please add: set(HETU_VERSION \"all\")"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:58
+#: b73a4f76dca44668b40d45f61d854620
+msgid "Hetu installation steps are as follows:"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:60
+#: 55293826b6344ac98f1113cc7966cd65
+msgid "​\t\t1) Create a builder file and compile:"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:66
+#: 25c3c0fea4cc4491b24e9e0a61e03cf8
+msgid "​\t\t2) If you want to compile all versions of Hetu:"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:72
+#: 2f8e679a43c648d684824138ad53c1e0
+msgid ""
+"​\t\t3) If you want to compile Hetu of a specific version, you could "
+"specify the version in cmake/config.cmake. And then you can run the "
+"command:"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:78
+#: db77770907764433a0f160ebafaccdcb
+msgid ""
+"​\t\t4) If you want to comple other versions and modules of Hetu, please "
+"follow the summary code below:"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:98
+#: e26dba49cbe74f04a1fd70b7c3a82f80
+msgid "​\t5) To delete the compile enviroment, you could use:"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents_en.md:104
+#: 60947be7dfa64627889563e433a14a82
+msgid ""
+"​\t6) Finally, you could activate environment variables for Hetu as "
+"follows："
+msgstr ""
+

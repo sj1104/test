@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/Overview/performance.md:1 4721dc8697e149e9b6573f0b0dd637b8
+msgid "Performance"
+msgstr ""
+
+#: ../../source/Overview/performance.md:10 e8dad9b127bd4b4db97acc80947178d7
+msgid "Peformance comparison"
+msgstr ""
+
+#: ../../source/Overview/performance.md:12 70f22e4570a84c2195e1867935cebfc4
+msgid "The performance comparison is summarized in the figure below."
+msgstr ""
+
+#: ../../source/Overview/performance.md:14 a325e2dd6b534933b6da0e13cca5428e
+msgid "DNN/CNN/RNN comparison"
+msgstr ""
+
+#: ../../source/Overview/performance.md:16 a8dfabd026834c9a825ed368188265d6
+msgid "Tensorflow/PyTorch/Horovod"
+msgstr ""
+
+#: ../../source/Overview/performance.md:21 a55e8d63deb142a29469c629f30a7eb7
+msgid "Embedding model comparison"
+msgstr ""
+
+#: ../../source/Overview/performance.md:22 e61a01afa83b401e824d088dfab9d0f7
+msgid "Parallax/TensorFlow/Horovod/HugeCTR"
+msgstr ""
+
+#: ../../source/Overview/performance.md:26 e8ca9fb69c0a41c6a6bb290dbe6c8234
+msgid "GNN comparison"
+msgstr ""
+
+#: ../../source/Overview/performance.md:27 f33ced9047f8428ea5371082f2a9bc94
+msgid "DGL/PYG"
+msgstr ""
+
+#: ../../source/Overview/performance.md:32 64c9b972cf0340c48086c511a90ec99c
+msgid "Batch size comparison"
+msgstr ""
+
+#: ../../source/Overview/performance.md:33 c7efa2e1a9d44f47a6183f1e525c0f5f
+msgid "Swap/Recompute"
+msgstr ""
+
+#: ../../source/Overview/performance.md:38 1aa33aa994e7467ea1f8dd02ab31048c
+msgid "AutoML search comparison"
+msgstr ""
+
+#: ../../source/Overview/performance.md:40 9dc54bd234604bbfb3a68b2d131cbf84
+msgid "Pretrain model comparison"
+msgstr ""
+
+#: ../../source/Overview/performance.md:41 bba3cb77b91e46a1b449787a8feaa30d
+msgid "Pipedream/Gpipe/Megatron-LM"
+msgstr ""
+

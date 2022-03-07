@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/Tutorials/start/contents_en.md:1
+#: a4a7b561b8aa44569d8c0b74f260a3f1
+msgid "Quick Start"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:3
+#: 2552b76eb3554b6f860c2a5cc25753f1
+msgid "Thank you for your attention to Hetu！"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:5
+#: 4e3b4f21c479479689dc384b3ef0e5ce
+msgid "Let's start with the training of the CNN model now."
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:7
+#: 617e2d65628649c3b4e12cba1f39dc30
+msgid "Please ensure you have finished the installation process before we start."
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:9
+#: d39e0ee0b8234527a90273bdcb98d38f
+msgid "In general, a deep learning task includes the following steps:"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:11
+#: 290a6f94f6744d15aaf2343615a2bee7
+msgid "​\t1) dataset loading;"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:13
+#: 793a78d2e0a445628977a05a102e731a
+msgid "​\t2) model building;"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:15
+#: 68786fad68804a94a1299cfd7d1649e2
+msgid "​\t3) model training;"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:17
+#: 51d88fea6d8b4997a10b82f4a5b52415
+msgid "​\t4) model validation."
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:19
+#: ac6c047741304f0cad057a4c750b6a35
+msgid "​\t5) model saving."
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:21
+#: de286bc1e72e41109de3e9d1d3818b32
+msgid "​\t6) model loading."
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:23
+#: 7fabcd6c80b042eab429bce35c3a5077
+msgid "​\t7) model testing."
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:25
+#: 0acc74d9a5cd4671b671e55e7bb3b0d5
+msgid "Let's implement these steps with APIs in Hetu."
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:28
+#: 59b1d42e0f1f4442b8f978d95931e51f
+msgid "Model Example"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:31
+#: 911b5937ba634aac98cf1ac82cfedcd1
+msgid "Import HetuML Libraries"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:33
+#: aadae1dd2a2c4a18a797106add67de78
+msgid ""
+"You could start with a new python file, please import related Hetu "
+"libraries:"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:46
+#: 14f9629a05ff4d8db58ad5386b54086c
+msgid "Data Loading"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:48
+#: f29d7498fb214a5eb9d3e26ef947327e
+msgid ""
+"Hetu has built-in methods for data loading. You could use the following "
+"methods to load datasets."
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:64
+#: 4e4136ff7be64d1f84165ea2f4f627b9
+msgid "Then, we transform the input data into one-hot format:"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:86
+#: d51ce897cd4a421e863a3a68804732c8
+msgid "Model Building"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:88
+#: 4814c98884b14b20b20d7532d6b99dc1
+msgid ""
+"Hetu supports easy-to-use Python APIs for models training and testing. "
+"First, you can build  modules for training by using operators in Hetu."
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:107
+#: 6dd7f962b172446089eec7ed148fcd68
+msgid "Then, you could define objective function for your model:"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:120
+#: 189c81094dae489b9703d983b756601c
+msgid "Model Training"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:122
+#: 490bd19cfe6242aea3577aad94937428
+msgid ""
+"The model training use the RUN method of Executor, and update gradients "
+"automatically according to the configured optimizer."
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:144
+#: 18f804b526e547f58fce8023b372a090
+msgid "Model Validation"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:146
+#: 7750c761e080491ab126fda55e5b997a
+msgid ""
+"You can use the following methods to validate your model and evaluate the"
+" accuracy of the model on the validation set."
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:161
+#: ../../source/Tutorials/start/contents_en.md:283
+#: 8995858f8511466ea22d6fe3b4135d34 a334978a4b96499faa75835fe251c92e
+msgid "Output"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:163
+#: 3a8e2a20a7a646969b17fdfa87051909
+msgid ""
+"For the above CNN model training, after the completion of the training, "
+"you will get the following results."
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:191
+#: d26b7a4bcf08485eb88fdcd94d68d5f2
+msgid "Model Saving"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:193
+#: 02be11199750451bad5ce08d514a38db
+msgid "After training, you can save the model by using the following methods."
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:201
+#: db7d85c8de1749cfbc301180ba36525c
+msgid "Model Loading"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:203
+#: b49a5068b48c4fa8a0de8b5ebf65b810
+msgid "Also, You can load the saved model to do testing."
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:211
+#: fb83484595d9498085120ae74b418e8c
+msgid "Model Testing"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:213
+#: 4ca9285141454202b698d787e9874500
+msgid ""
+"You need to rebuild the model and load the saved parameter like above. "
+"Then, you can complete the testing."
+msgstr ""
+
+#: ../../source/Tutorials/start/contents_en.md:285
+#: 1b21aae2c7e341fe910fe056fc62f112
+msgid ""
+"For the above CNN model testing, after the completion of the testing, you"
+" will get the following results."
+msgstr ""
+

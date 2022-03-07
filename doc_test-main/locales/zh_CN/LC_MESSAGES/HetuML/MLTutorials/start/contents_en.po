@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/HetuML/MLTutorials/start/contents_en.md:1
+#: 68e0c60153674387946b56aee1d8ca2e
+msgid "Quick Start"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents_en.md:3
+#: 6e54551ba6fa46dab5252a4c7ecdab9a
+msgid ""
+"This is a quick start tutorial showing snippets for you to quicky try out"
+" HetuML on a small demo dataset(a9a) for a binary classification task "
+"with Logistic Regression Model."
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents_en.md:5
+#: efe1c4ac206f47b98c2722302ab7176a
+msgid "Please ensure you have finished the installation process before we start."
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents_en.md:7
+#: 21b84f87064f46c7ab11a90740cccfbd
+msgid "In general, a machine learning task includes the following steps:"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents_en.md:9
+#: 3897fff1dac94d279476736dec3937be
+msgid "​\t1) dataset loading;"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents_en.md:11
+#: 6798a08106704c7aad4471316a7a31ae
+msgid "​\t2) model building;"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents_en.md:13
+#: 8041a0a4192245a5926aaa772639b814
+msgid "​\t3) model training;"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents_en.md:15
+#: efc06b77e3fb4929996b0c60e3f95ae4
+msgid "​\t4) model validation."
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents_en.md:17
+#: da3d8f6019134ccbbcfc0c27dce80a3d
+msgid "Import HetuML Libraries"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents_en.md:19
+#: 0e08c225cf994e1d8c3f1def00ead950
+msgid ""
+"You could start with a new python file, and please import related HetuML "
+"libraries:"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents_en.md:27
+#: 559d8d9d27804d68a8116246cc0d8aaa
+msgid "Data Loading"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents_en.md:29
+#: eef3ac7e00a74fb4bf04cbbc647333fa
+msgid ""
+"HetuML has built-in methods for data loading. You could use the following"
+" methods to load datasets. train_path and valid_path are the addresses of"
+" training dataset and testing dataset seperately."
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents_en.md:40
+#: d8048b7dee504173ab89f1ef16e98872
+msgid ""
+"Besides, HetuML can support scikit-learn-like api for users. You could "
+"load csr_matrix format data in the following steps too:"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents_en.md:52
+#: d6f13af3fdd442ff9072da3efecb5fc8
+msgid "Model building"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents_en.md:54
+#: 97c4df3f52f94fc9b0956d33e4ce1db9
+msgid ""
+"HetuML supports easy-to-use Python APIs for ML models training and "
+"testing. We take Logistic Regression in the standalone setting as an "
+"example."
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents_en.md:56
+#: 60e3b65ade054f01987357610a3fcb39
+msgid "First, we write functions for model training and validation:"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents_en.md:83
+#: ddba6d967f2d40289280d092d0b47d59
+msgid "Then, we construct the Logistic Regression model and train this model:"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents_en.md:92
+#: 9ce940145b2a46f8957e47c60fdc8255
+msgid "Result Output"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents_en.md:94
+#: 871f31755ca44a509393d1857cde0b2f
+msgid ""
+"After run the above Python code, you can get a new file of log which "
+"contains the training history. Here we show part of this output:"
+msgstr ""
+

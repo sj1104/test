@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/hetu.rst:2 bc95652e308a42f691ec2ca53f9e63e6
+msgid "hetu package"
+msgstr ""
+
+#: ../../source/hetu.rst:5 632b53533ba94c6ea74ed6071d047a52
+msgid "Subpackages"
+msgstr ""
+
+#: ../../source/hetu.rst:17 c3284870562b4512b1752f38d00ef7cb
+msgid "Submodules"
+msgstr ""
+
+#: ../../source/hetu.rst:20 fd339979f8cc416eb48ad31e0029b83f
+msgid "hetu.cstable module"
+msgstr ""
+
+#: ../../source/hetu.rst:28 8d27ab859ce945c2b863a61dd68e8d20
+msgid "hetu.dataloader module"
+msgstr ""
+
+#: ../../source/hetu.rst:36 ffc0fefa16aa48c48554369c6a810c34
+msgid "hetu.initializers module"
+msgstr ""
+
+#: ../../source/hetu.rst:44 5b21982997074d5899f398ce6b1cefc0
+msgid "hetu.launcher module"
+msgstr ""
+
+#: ../../source/hetu.rst:52 e7e93a5ebefb49feb48bc7fb875577c7
+msgid "hetu.metrics module"
+msgstr ""
+
+#: ../../source/hetu.rst:60 c19b5b720ccc4c41b45042a75550bb8b
+msgid "hetu.model module"
+msgstr ""
+
+#: ../../source/hetu.rst:68 396ba381a9e84de9bba225b74e47670e
+msgid "hetu.ndarray module"
+msgstr ""
+
+#: ../../source/hetu.rst:76 02f475f7121b4cabae1cc94319abca94
+msgid "hetu.optimizer module"
+msgstr ""
+
+#: ../../source/hetu.rst:84 642f49041cab441898d4b7b10c0cc497
+msgid "hetu.stream module"
+msgstr ""
+
+#: ../../source/hetu.rst:92 269f319350be4a3bab6f21436d5b84df
+msgid "Module contents"
+msgstr ""
+

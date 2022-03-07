@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/hetu.onnx.X2hetu.handlers.rst:2
+#: 3a2e68a2fa1546b49f28b6068c50548b
+msgid "hetu.onnx.X2hetu.handlers package"
+msgstr ""
+
+#: ../../source/hetu.onnx.X2hetu.handlers.rst:5
+#: 95fd40d456ed4a2d91e5c8bfcf85278b
+msgid "Submodules"
+msgstr ""
+
+#: ../../source/hetu.onnx.X2hetu.handlers.rst:8
+#: e377621c64f346d68601c3cea1fc998b
+msgid "hetu.onnx.X2hetu.handlers.array module"
+msgstr ""
+
+#: ../../source/hetu.onnx.X2hetu.handlers.rst:16
+#: d3c153aee433490cb3619c2fb008cccc
+msgid "hetu.onnx.X2hetu.handlers.math module"
+msgstr ""
+
+#: ../../source/hetu.onnx.X2hetu.handlers.rst:24
+#: 5f93a7e1982f44a89b412680f28228ec
+msgid "hetu.onnx.X2hetu.handlers.nn module"
+msgstr ""
+
+#: ../../source/hetu.onnx.X2hetu.handlers.rst:32
+#: b2e39498406c426cbd4a67226f4917f6
+msgid "Module contents"
+msgstr ""
+

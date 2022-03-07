@@ -1,0 +1,27 @@
+Development plan
+=================
+
+..
+	最近几年，深度学习系统优化的相关工作越来越多的出现在机器学习和计算机系统相关的顶级会议上（如：OSDI、SOSP、SIGMOD、VLDB、ATC、PPoPP、EuroSys、MLSys等），河图开发组在深度学习系统开发上已经有了一些学术成果和技术积累，欢迎更多人参与到这项有挑战性的研究上，我们准备了两项Project供大家选择：
+
+	Project 1. 分布式优化
+
+	随着数据和模型规模的增长，分布式深度学习研究越来越重要，如何在分布式环境下进行深度学习模型的高效训练已经成为了一个重要挑战。例如国外的GPT-3，国内的“盘古”等模型，动辄上亿参数，需要成百上千张GPU卡才能支持分布式训练。本项目主要研究目标是 1) 在河图系统上，通过集成数据/模型/流水线并行等方法提高分布式并行训练的效率; 2) 通过更精巧的分布式系统接口和架构设计，实现自动化的高效分布式训练。(二选一)
+
+	Project 2. 特定算法优化
+
+	近年来，有一些深度学习模型由于其优秀的表达能力获得了很高的关注度研究热度，因此对这些特定的模型在大规模数据场景下进行系统化的优化就显得尤为重要，对于推动该领域的发展具有重要意义。本项目主要研究目标是在河图系统上，针对目前的特定深度学习模型（GNN, Transformer, Knowledge graph embedding, 三选一), 在大规模分布式场景或单机GPU kernel场景，进行针对性的性能优化，形成独立的开源工具包。
+
+	如果你对上述研究问题感兴趣，希望加入河图开发组，欢迎邮件咨询：xupeng.miao@pku.edu.cn
+
+Recently, DL system optimization research has been widely studied and published by high-level conferences on machine learning and computation systems (e.g., OSDI, SOSP, SIGMOD, VLDB, MLSys, ASPLOS, ATC, EuroSys, PPoPP, etc.). Our Hetu development team has obtained many academic achievements and technological accumulations. We welcome all of you to join this challenging approach and we prepared two projects for you to select:
+
+Project 1. Distributed Optimization
+
+With the increasing amounts of data and the growing size of models, distributed DL is becoming more and more important. High-performance distributed training is a crucial challenge for emerging large DL models, such as GPT-3 and PanGu, which consist of trillions of parameters and require thousands of GPUs for distributed training. This project targets: 1) integrating data/model/pipeline parallelism to improve the training efficiency; 2) re-design the distributed system interfaces and architectures to support automatically distributed training over Hetu. (either 1) or 2))
+
+Project 2. Certain Algorithm Optimization
+
+In recent years, many ML researchers have focused their attention intensely on certain DL models due to their powerful performance. Making system optimization on these models is significant when scaling them to large-scale and high-dimensional data inputs. This project targets certain DL models (i.e., GNN, Transformer, Knowledge Graph Embedding) and developing individual open-source modules with GPU or distributed acceleration over Hetu.
+
+If you have interests in these problems and want to join us, welcome to contact: xupeng.miao@pku.edu.cn

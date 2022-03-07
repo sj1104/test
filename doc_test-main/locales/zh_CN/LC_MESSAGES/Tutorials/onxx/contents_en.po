@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/Tutorials/onxx/contents_en.md:1
+#: 0f4c94750b5c4305bfbd8fc86328b692
+msgid "Converting to ONNX format"
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents_en.md:3
+#: 8fb6ece0a7244678a8ba514ab1620a67
+msgid ""
+"Open Neural Network Exchange (ONNX) is an open ecosystem that empowers AI"
+" developers to choose the right tools as their project evolves. ONNX "
+"provides an open source format for AI models.This allows us to migrate "
+"our algorithms and models between different frameworks."
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents_en.md:5
+#: 7375e7957adb471cab2b361b36dd11e8
+msgid "Hetu models can convert to ONNX format, and inference using ONNX Runtime."
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents_en.md:7
+#: 6ad61c97b1234fe1808d0bc3672942fa
+msgid ""
+"ONNX format can convert to Hetu models, and used directly for training "
+"and inferencing."
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents_en.md:9
+#: 94871cfbb96e4bf08334b357dd8f8f4d
+msgid "The APIs of converting to ONNX format are housed in hetu.onnx."
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents_en.md:11
+#: be28ac161bd043fa95e6b96f69c29eeb
+msgid "Convert Hetu Models to ONNX Format"
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents_en.md:13
+#: 3c76cdc6e7664b1db8af512dcad9e6a1
+msgid ""
+"The following example shows how to convert the CNN model to the ONNX "
+"fomat."
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents_en.md:15
+#: 3dc008865a5947888dd56cd8395526c5
+msgid "Convert CNN Model to ONNX Format"
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents_en.md:17
+#: bdbddeb49a56428994ef0da32268f0a6
+msgid ""
+"The model is converted to ONNX format. Firstly, the operator of Hetu is "
+"mapped into the operator of ONNX one by one according to the operator "
+"protocol of ONNX, and then the diagram is built and converted to the "
+"model format and saved."
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents_en.md:50
+#: 56cbada82dee4092b5de6660a1802e7e
+msgid "Inference using ONNXRuntime"
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents_en.md:66
+#: ../../source/Tutorials/onxx/contents_en.md:116
+#: 2189c2e92ddc4f8c87ff5ffcb885fad1 f7dce09e2fe9404aa8e189e557a26a30
+msgid "Convert ONNX Format to Hetu Model"
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents_en.md:68
+#: ee10983c61f74c17b508d63f7dbbd476
+msgid ""
+"This section takes the ONNX format of a CNN model transformation for "
+"TensorFlow as an example to show how to import the ONNX format into the "
+"Hetu framework."
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents_en.md:70
+#: fe7ee9178dee46138bbc7d99efd22e57
+msgid "Convert Tensorflow Model to ONNX Format"
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents_en.md:72
+#: 16e38272fbc045548675de47e7b6ab93
+msgid "Build TensorFlow model and convert to the ONNX format using TF2ONNX."
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents_en.md:106
+#: a39751a4235f4394862bc79646301f14
+msgid "Then you can convert the model to ONXX format by the following code:"
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents_en.md:118
+#: c424ea7a94314b4f9e15f377fa684e85
+msgid ""
+"By converting the ONNX format into the Hetu framework, you can simply use"
+" hetu.onnx2hetu.load_onnx, and the resulting Executor can be used for "
+"subsequent training."
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents_en.md:126
+#: 322526edd90a48408466ab7a336f753c
+msgid "Comparison of Conversion Results"
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents_en.md:128
+#: 6b6d1733e6184ab9bb29c94d8ee71d01
+msgid ""
+"The ONNX protocol before the above transformation and the model after the"
+" transformation were inferred and compared with MNIST data set to verify "
+"the correctness of the transformation.ONNXRuntime is used for inferencing"
+" before conversion."
+msgstr ""
+

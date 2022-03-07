@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/HetuML/MLTutorials/start/contents.md:1
+#: 5c9e8f048b0545d587301e624ed9d926
+msgid "快速入门"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents.md:3
+#: a64df7b10d2740bc80994a9006fcaae9
+msgid "谢谢你选择Hetu！现在我们以一个单机版本的LR模型的训练来走进HetuML。"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents.md:5
+#: 837c96ddb89940db93b4508b57bfaba4
+msgid "在开始之前，请确保你已经正确地安装了HetuML。"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents.md:7
+#: d6a2e4b157e24e3485c192a4ee3f06c7
+msgid "一般地，深度学习任务包含几个重要步骤：1.数据集加载；2.构建模型；3.模型训练；4.模型验证。下面你可以使用HetuML的API，来一步步实现上述步骤。"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents.md:9
+#: 9ad11d7aba7a4b7cafc324cad32e2066
+msgid "导入HetuML模块"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents.md:11
+#: 9485f874f45d44e7aad0402072611e0e
+msgid "新建一个python文件，并导入HetuML以及相关的模块。这里以单机版本的逻辑回归模型为例。"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents.md:19
+#: ba0583e835fb4c4c9eb13425eb505e65
+msgid "加载数据集"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents.md:21
+#: 3dcd62b42e434be0bcaf91d0d9a4acf8
+msgid "HetuML内置了数据集的加载和切分batch的方法，你可以使用以下方法加载数据集,其中，train_path、valid_path分别指向训练集和验证集的地址："
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents.md:32
+#: 0855f319dded433e8bd81bd8b1ad7591
+msgid "除此之外，如果您的数据格式是libSVM格式，您也可以通过加载csr_matrix的方式加载数据："
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents.md:44
+#: daa3dadfd4ae474d874e7108b410734c
+msgid "构建模型"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents.md:46
+#: d9e0450ddd9b4950a8311765df1ee74e
+msgid "通过调用HetuML的api，可以方便的使用HetuML的模型进行训练与测试，我们以单机版的逻辑回归为例。详细模型可以被用户设置的超参可以在用户手册中查询。"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents.md:48
+#: e64ac8d1de49410d8b678c4fc1388b88
+msgid "首先，我们定义一些测试模型训练与验证的api："
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents.md:75
+#: 3c3fa2202c554ef18da74f1aedf13c4a
+msgid "然后，我们定义模型并且使用模型："
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents.md:86
+#: 825de5ee16164596a0f40e658f03ad39
+msgid "结果输出"
+msgstr ""
+
+#: ../../source/HetuML/MLTutorials/start/contents.md:88
+#: 64a137cf7b124fb9b574fbb3a9022a2d
+msgid "对于以上单机版本的逻辑回归模型的训练和推理，在训练过程中你会得到与以下格式类似的log："
+msgstr ""
+

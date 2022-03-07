@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/HetuML/AutoML/LR/contents.md:1 e5fa23af134b4ae78753ac30bad07209
+msgid "LR"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/LR/contents.md:3 dfca053b6f9f4a08a81014ae88c3b26e
+msgid "HetuML是一个高性能的分布式机器学习框架，并且支持自动化调参。我们通过使用OpenBox对HetuML中的模型进行超参数优化，并演示HetuML进行自动化调参的过程。"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/LR/contents.md:5 445294e506cb46818a89c0ac1a2dcbf8
+msgid "在进⾏自动化调参之前，我们需要定义任务搜索空间（即超参数空间）和优化⽬标函数。"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/LR/contents.md:7 449c6a62dce04cbd8aed20874dce12da
+msgid "定义超参数空间"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/LR/contents.md:9 7ccac0607bc542f08472144a3e05f824
+msgid "首先，我们我们使⽤ConfigSpace库定义模型的超参数空间。在逻辑回归中，需要进行自动化调参的参数主要是学习率:"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/LR/contents.md:24
+#: 5ac0ef381f0e4b03892a2b8c9a165428
+msgid "根据模型的不同与参数类型的不同，也可以相应选择Constant设置常量、UniformIntegerHyperparameter为Int型参数进行优化。"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/LR/contents.md:26
+#: 92f798e38ce247839f09b41737d81cd2
+msgid "定义目标函数"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/LR/contents.md:28
+#: a02116a0a71e4f3c98e95e2c948ba514
+msgid "接下来，我们定义优化⽬标函数，设置最小化log loss为优化目标。"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/LR/contents.md:30
+#: e536eda4f4af40bb9c00be39d23464dc
+msgid ""
+"下面展示我们定义目标函数objective_function,并在目标函数中利用训练集训练HetuML提供的LogisticRegression模型，利用验证集预测并计算优化log"
+" loss的过程:"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/LR/contents.md:56
+#: c261c89d0f8d44908e608ce424a243b1
+msgid "执行优化"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/LR/contents.md:58
+#: eb9bb1b8831c4488af6b9c31fa806483
+msgid "定义好任务和⽬标函数以后，就可以调⽤自动化⻉叶斯优化框架SMBO执⾏优化。我们设置优化轮数（max_runs）为30，代表将对LogisticRegression模型调参30轮。每轮最⼤验证时间（time_limit_per_trial）设置为180秒，超时的任务将被终⽌。优化结束后，可以打印优化结果。"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/LR/contents.md:70
+#: 34e02937806d425ba0e783553ca92584
+msgid "打印结果如下："
+msgstr ""
+

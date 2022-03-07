@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/Features/content1.md:1 1fc1d3789e684dfaa814d3908e6a6d48
+msgid "Automatic Distributed Training"
+msgstr ""
+
+#: ../../source/Features/content1.md:16 2058140f495744ad88059498e22ab6d5
+msgid "Supporting mulitple parallel training schemas"
+msgstr ""
+
+#: ../../source/Features/content1.md:17 a28757f48bb54c989c2662df5a0b9082
+msgid "Data parallelism"
+msgstr ""
+
+#: ../../source/Features/content1.md:18 49167a5ff15948b6aa277f7329210b8b
+msgid "Model parallelism"
+msgstr ""
+
+#: ../../source/Features/content1.md:19 605ce4cefaea49cabdb305d0606fc864
+msgid "Parameter parallelism"
+msgstr ""
+
+#: ../../source/Features/content1.md:20 0e9e23804f0343469cfd7646946812ad
+msgid "Operator parallelism"
+msgstr ""
+
+#: ../../source/Features/content1.md:21 849731adc04e4fcc88c704ada0b19048
+msgid "Pipeline parallelism"
+msgstr ""
+
+#: ../../source/Features/content1.md:22 e88605a4fbf24cb6a14e63e3a781bebd
+msgid "Subgraph parallelism"
+msgstr ""
+
+#: ../../source/Features/content1.md:23 4350a38a0fd14496af9ff6fa3ce3d327
+msgid "Optimizer parallelism"
+msgstr ""
+
+#: ../../source/Features/content1.md:24 588a2e6195a44addbc71767188437d1e
+msgid "Supporting popular distributed communication architectures"
+msgstr ""
+
+#: ../../source/Features/content1.md:25 0fe0064606b64c36891b4762cee3d25d
+msgid "Parameter server"
+msgstr ""
+
+#: ../../source/Features/content1.md:26 902c52aac26347ca83a476cbdd5f88a5
+msgid "Collective communication"
+msgstr ""
+
+#: ../../source/Features/content1.md:27 abe6290a644b41f9b14d70b34e24581e
+msgid "Supporting topology-aware automatic distributed training"
+msgstr ""
+
+#: ../../source/Features/content1.md:28 a79909690b51458d8ac4449d6f380e27
+msgid "Device placement"
+msgstr ""
+
+#: ../../source/Features/content1.md:29 212831d9c2b74d1ab7fc4505dac38c26
+msgid "Cost estimation"
+msgstr ""
+
+#: ../../source/Features/content1.md:30 b15a34c7fea64c67a6df2f0b46bf5514
+msgid "Dynamic programming"
+msgstr ""
+

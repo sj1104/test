@@ -1,0 +1,35 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/hetu.cpu_links.rst:2 850a1cdf35ce4661ba4d1b56525945b1
+msgid "hetu.cpu\\_links package"
+msgstr ""
+
+#: ../../source/hetu.cpu_links.rst:5 a3794fdbd4ce4a8a8bc9fb6cb70a4a49
+msgid "Submodules"
+msgstr ""
+
+#: ../../source/hetu.cpu_links.rst:8 84445b54589a489abfa068bbddf5a08d
+msgid "hetu.cpu\\_links.dnnl\\_op module"
+msgstr ""
+
+#: ../../source/hetu.cpu_links.rst:16 624a09d27f4843868637b18980837185
+msgid "Module contents"
+msgstr ""
+

@@ -1,0 +1,197 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/Tutorials/install/contents.md:1
+#: ../../source/Tutorials/install/contents.md:55
+#: 8a3a2cab63f34eae968cc2f5973e3055 9ec37527aae54f1fb61072e7858ad06e
+msgid "安装"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:3
+#: 96e3b091d6ab45c5989a7916d69e45f1
+msgid "从源码编译安装Hetu"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:5
+#: 2629ed274b2042bcbc78ec09ea178f6d
+msgid "如果你希望通过编译源码安装Hetu，可以参考Hetu源码仓库的README，并请按照以下步骤进行。"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:7
+#: 00e22717266b496ba213e5f6c20df10d
+msgid "克隆仓库"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:9
+#: 21e3371bad874ab38c51f67ac55ef3e3
+msgid "执行以下命令克隆Hetu仓库:"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:17
+#: b084e958c25241948e9a45bf37d5bc00
+msgid "环境准备"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:19
+#: 5dbff4b028ad49749c63eeb6152a89e1
+msgid "Python>=3.6"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:21
+#: 0013573f3b9849d09d261f53f2b36ae4
+msgid "你的编译器应支持OpenMP"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:23
+#: 21cfcb25143d443c9e0e7450e98960e2
+msgid "CMake>=3.18"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:25
+#: 571b5c21d9b54cfe91d3c9663084d1c2
+msgid "Hetu提供了2个版本供你选择：mkl版本和gpu版本，这2个版本可以同时安装。"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:27
+#: 76132a309079459db37cdc699af25cf0
+msgid "1)mkl版本："
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:29
+#: b029f0ed356042c0a89167b62c2395c7
+msgid "MKL 1.6.1"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:31
+#: 08e107d2c88640ea90740676e17a97d9
+msgid "Hetu仓库提供自动的mkl下载安装指令，如果你选择自行安装mkl，请按照以下步骤进行："
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:33
+#: c6c255512d5d4142aaf346475d530092
+msgid "下载：https://github.com/intel/mkl-dnn/archive/v1.6.1.tar.gz"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:35
+#: e8281cc33583421e8366bd62a9fc5bee
+msgid "编译："
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:41
+#: 530e38c2b5554aceaba3d5533182599c
+msgid ""
+"修改MKL_ROOT to /path/to/root and MKL_BUILD to /path/to/build in "
+"cmake/config.cmake。其中cmake是Hetu仓库源码目录。"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:43
+#: 444e3f6aa1414e1bb47df901b1a9333a
+msgid "2)GPU版本:"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:45
+#: 6e07c4c94b854fa2abc8fd6101123545
+msgid "CUDA 工具包10.1 配合cuDNN v7.5+"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:47
+#: f3813fdfb6d841ccbba9b94b48bbc530
+msgid "请按照以下步骤下载安装CUDA和CUDNN"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:49
+#: 931b480da6e24781b38ab6eb0d3ef8a2
+msgid "下载：https://developer.nvidia.com"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:51
+#: 76b37e1ed1f34cf3b86e1a3bc93e18da
+msgid "安装CUDA"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:53
+#: 019aef350d914b28be00a65fbf5db3e4
+msgid "在cmake/config.cmake中设置CUDA路径。"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:57
+#: 9c03cedf74c9443ca6636fb64f23e584
+msgid "根据你需要安装的Hetu版本，修改cmake/config.cmake中的模块路径。"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:59
+#: 5b9a7ba8d44a4f0c86748dbbaa44cadc
+msgid "安装CPU版本，请修改为：set(HETU_VERSION \"mkl\")"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:61
+#: 6778663490814092a83d4af7e328ef33
+msgid "安装GPU版本，请修改为：set(HETU_VERSION \"gpu\")"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:63
+#: 1b77ea76d8f84269a27da1bdcd5af9f3
+msgid "两个版本同时安装，请修改为：set(HETU_VERSION \"all\")"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:65
+#: ee7ca6ef5aec40d198f345b00c366815
+msgid "修改各模块路径。"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:67
+#: f34d74a81601405fb813362d6ebfd692
+msgid "Hetu编译安装步骤如下："
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:69
+#: cf38a40810644f8dab65daad08736378
+msgid "新建build文件夹并编译"
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:75
+#: 7e09bd3910ae4a208a1c9f9c68fd4c9f
+msgid "​\t\t2) 如果编译Hetu所有版本，请执行："
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:81
+#: 096ee7fc6e6044eda8ef9ba6eaf5c506
+msgid "​\t\t3) 如果编译Hetu特定版本，版本类型在cmake/config.cmake中指定，请执行："
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:87
+#: fa20f9b0b4a04eedbd6942c521769c09
+msgid "​\t\t4) 如果编译其它版本和模块，请按照以下汇总代码执行："
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:107
+#: cddb12acade04859807c1981297469e0
+msgid "​\t\t5) 编译环境删除，请执行："
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:113
+#: 8ec00f75499a4d26a845b63252ad7ad1
+msgid "设置Hetu运行环境变量："
+msgstr ""
+
+#: ../../source/Tutorials/install/contents.md:119
+#: 651bdff536084f85b5bae5bcd236d009
+msgid "至此，恭喜你，你已经完成了Hetu的安装工作。"
+msgstr ""
+

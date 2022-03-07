@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/HetuML/AutoML/LR/contents_en.md:1
+#: 537f5d7bf73e48df81400f7a8f945916
+msgid "LR"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/LR/contents_en.md:3
+#: 0db687e11c264b23abcc33cdea53dc1c
+msgid ""
+"Here is a simple Python demo to show how to use AutoML module in HetuML "
+"for auto-tuning on Logistic Regression(LR) in HetuML."
+msgstr ""
+
+#: ../../source/HetuML/AutoML/LR/contents_en.md:5
+#: bca06d8db47d46ea8e10999e4b427979
+msgid ""
+"Before tuning on the models, we need to define a search space for the "
+"current model, as well as an optimization function."
+msgstr ""
+
+#: ../../source/HetuML/AutoML/LR/contents_en.md:7
+#: d6161dcb31b54f3aa64ebd3af059c843
+msgid "Define Hyper-parameters Search Space"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/LR/contents_en.md:9
+#: 757743b7864b4a679a1151640ddcaf0a
+msgid ""
+"Firstly, we utilize ConfigSpace library to define search space for hyper-"
+"parameters. Parameter mainly need to be tuned in Logistic Regression is "
+"learning rate.  The example is as follows:"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/LR/contents_en.md:24
+#: b2efa19261a24b10862dae87d4fb6440
+msgid ""
+"You can adaptively set hyper-parameters to its corresponding types(e.g., "
+"UniformFloatHyperparameter,  Constant)."
+msgstr ""
+
+#: ../../source/HetuML/AutoML/LR/contents_en.md:26
+#: 6e702a27a7e44ba3bc0d6d3268641849
+msgid "Define Optimization Function"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/LR/contents_en.md:28
+#: 9e2b88f139804a8db09658477cd32ed6
+msgid ""
+"Next, you could define optimizing function for this model, and in this "
+"example, we set the optimizing objective to the minimization of log loss."
+msgstr ""
+
+#: ../../source/HetuML/AutoML/LR/contents_en.md:30
+#: be378ffcf9454d6f89b07acd41bd6370
+msgid ""
+"We then define the objective function. The train set is used in the "
+"objective function to train the LR model, and the validation set is used "
+"to predict:"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/LR/contents_en.md:56
+#: 63eb899e4637473986697ecdc31463da
+msgid "Hyper-parameter Tuning"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/LR/contents_en.md:58
+#: fa33bbda04fa45819f250da27771c595
+msgid ""
+"After the above steps, you could call SMBO for optimization. Here we set "
+"the maximal rounds of hyper-parameter tuning to 30, which represents that"
+" the maximal tuning times for HetuML Logistic Regression is 30. And we "
+"set the time limit for each term of validation to 180 seconds, and the "
+"timeout task will be terminated."
+msgstr ""
+
+#: ../../source/HetuML/AutoML/LR/contents_en.md:70
+#: de45fc377de24a4ab428f90c8148ce97
+msgid "Finally, you could print out  the result："
+msgstr ""
+

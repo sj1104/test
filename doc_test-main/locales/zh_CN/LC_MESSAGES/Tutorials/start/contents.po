@@ -1,0 +1,197 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/Tutorials/start/contents.md:1 a42d8f7464024bb28e1a60916678e316
+msgid "快速入门"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:3 a76ba65c38ed4842b2bcfa7c20116ce0
+msgid "谢谢你选择Hetu！现在我们以一个CNN模型的训练来走进Hetu。在开始之前，请确保你已经正确地安装了Hetu。"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:5 87c3393da782456e982c497f89d7f61b
+msgid "一般地，深度学习任务包含几个重要步骤：1.数据集加载；2.构建模型；3.模型训练；4.模型验证。下面你可以使用Hetu的API，来一步步实现上述步骤。"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:7 55ccee24484240518cb095ba50a4322e
+msgid "模型示例"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:9 7b14dea4be6b4219a3d7073c7cae1eac
+msgid "一、导入Hetu"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:11 a3ac448215cb46c6b7b9dc7ce837a09e
+msgid "新建一个python文件，并导入Hetu以及相关的模块。"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:25 3ab1169d31f44d258e5ad5792793f429
+msgid "二、加载数据集"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:27 080d61d4e2704767b3af4bf01024abd4
+msgid "Hetu内置了数据集的加载和切分batch的方法，你可以使用以下方法加载mnist数据集。"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:75 750cff8183ff4fce8611d9e80275e4d6
+msgid "​"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:77 c4bc3d05e8cc4cce92ea15627814d2dd
+msgid "三、构建模型"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:79 516aa0935953417d987256de7691d45f
+msgid "通过Hetu下的gpu_ops一步步将网络构建起来，Hetu内置了一些常用的初始化工具，你可以方便地进行模型初始化工作。"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:127
+#: 741dc193a38243079e4e87665bf26694
+msgid "四、模型训练"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:129
+#: d151c014a59d4f368078595ee5e41791
+msgid "模型的训练需要定义好Executor，然后直接使用Executor的run方法即可进行训练，并自动按照配置的优化器进行梯度的更新。"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:165
+#: eb7d1cc5c88e4c3fb5eb6407ac4f46b3
+msgid "五、模型验证"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:167
+#: 3a997f213a9d4696b4e4c580d324892c
+msgid "你可以使用如下方法，进行模型的验证和推理，并在验证集上评估模型的精度。"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:191
+#: bdf300cf84764c73ad181d0504ccf182
+msgid "六、结果输出"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:193
+#: 5d6ecabdc9094108889ff585f9d0bf7e
+msgid "对于以上CNN的模型训练和推理，在训练完成之后，你会得到如下的结果，从结果中可以看出，在10个epochs内，模型训练loss不断下降，同时模型在验证集上的精确呈上升趋势。"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:245
+#: a76bf31fba8b4fc895859bfa4c2c9b4f
+msgid "模型和ONNX协议间的导入导出"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:247
+#: 480f6a3b1be54df9bb479ab449cfda03
+msgid "一、 简介"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:249
+#: 9465a7d16e324dfa9007de35d39c8276
+msgid ""
+"ONNX (Open Neural Network Exchange) "
+"是一种开源的文件格式，同时也是一种开放式的规范，可以用于存储训练好的模型。使得我们的算法和模型可以在不同的框架之间迁移。"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:251
+#: a23506b309aa4977afbbb7ce7cb6af9c
+msgid ""
+"通过ONNX格式，Hetu模型可以转化为ONNX格式，并使用ONNX "
+"Runtime等框架进行推理。同时Hetu也支持ONNX转换为Hetu框架模型，并直接用于训练和推理。"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:253
+#: d6a3c97e828749b5b6c58fdf19189c05
+msgid "模型和ONNX协议之间的导入导出API均放置在hetu.onnx内，你可以进行查询。其中Hetu模型转ONNX协议由hetu.onnx.hetu2onnx.export实现，ONNX协议转Hetu模型由hetu.onnx.onnx2hetu.load_onnx实现。"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:255
+#: a69205c93a38430887730b0e37637d6c
+msgid "下面分别介绍Hetu模型和ONNX之间的导入导出。"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:257
+#: 9f29bfb2b25642e6a16eaab94227d260
+msgid "二、 模型导出为ONNX协议"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:259
+#: 3b69af6627824642933ce5ae7b2b1121
+msgid "下面以CNN模型为例说明如何将模型转换为ONNX协议。"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:261
+#: b89d69f67e7541a69d9315cb37011483
+msgid "2.1模型转出ONNX协议"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:263
+#: 448738047cd343deace2972508c93ae4
+msgid "模型转换为ONNX协议，首先会根据ONNX的算子协议，将Hetu的算子一一映射为ONNX的算子，而后建图并转换为模型格式保存起来。"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:301
+#: 6b6156d85e4b40cd829732f691065665
+msgid "2.2 ONNXRuntime推理"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:303
+#: e7983781f1fb4e47b126a1ca05e9fb62
+msgid "将模型转换为ONNX协议之后，你可以使用ONNXRuntime进行推理，并与Hetu的结果进行比较验证。"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:323
+#: 606c5c26f50c4ce79178e64f3e4b7734
+msgid "三、 ONNX协议导入Hetu框架"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:325
+#: d97557b7fbcc45cebbe4b9d4b6dc7dff
+msgid "本节以一个Tensorflow的CNN模型转换的ONNX格式为例，说明如何将ONNX协议导入到Hetu框架中。"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:327
+#: 719ea02b57a14ee3a7e22debbe6db8c5
+msgid "3.1 将TF模型保存为ONNX协议"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:329
+#: 4a2006604b624a9dbfe34f7472c65557
+msgid "使用Tensorflow建立模型，利用tf2onnx将其转换为ONNX协议。"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:399
+#: e8713a25f05c4305a86417156b45cfd1
+msgid "3.2 将 ONNX协议转入Hetu框架"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:401
+#: 392d15aa143a4c2c81a927071f32c228
+msgid "将ONNX协议转入Hetu框架，你可以直接使用hetu.onnx2hetu.load_onnx即可，得到的executor可以用于后续的训练和推理。"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:408
+#: b94a49697d2f4e3c892b3b5d8a97e54f
+msgid "3.3 转换结果对比"
+msgstr ""
+
+#: ../../source/Tutorials/start/contents.md:410
+#: 589dc46b7f3f4982baa20238fa4a3327
+msgid "使用mnist数据集对上述转换之前的ONNX协议和转换之后的模型进行推理比较，验证转换正确性。其中转换之前的推理使用ONNXRuntime进行。"
+msgstr ""
+

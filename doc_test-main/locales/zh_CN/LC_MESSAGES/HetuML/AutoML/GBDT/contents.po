@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/HetuML/AutoML/GBDT/contents.md:1
+#: c1f217527ec94163aec82c9c98e00807
+msgid "GBDT"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/GBDT/contents.md:3
+#: ba7939d3ae9f450caa1717f08b54e7ac
+msgid "本⽂演示如何使⽤Hetu自动化机器学习模块对HetuML系统中的梯度提升决策树模型进行自动化调参。"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/GBDT/contents.md:5
+#: dd629f09219b42c184fff7d73947ab6f
+msgid "在进⾏自动化调参之前，我们需要定义任务搜索空间（即超参数空间）和优化⽬标函数。"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/GBDT/contents.md:7
+#: d3054647bd1f45fca09dc70ba9903f75
+msgid "定义超参数空间"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/GBDT/contents.md:9
+#: 7945a10580e04e95b3fe3c2539953925
+msgid "首先，我们我们使⽤ConfigSpace库定义模型的超参数空间。我们介绍HetuML的梯度提升决策树模型中可以被定义为超参的参数，并定义它们在Hetu自动化机器学习模块中对应的超参类型。"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/GBDT/contents.md:11
+#: a21c48c299a94abb95c5cbee7f0a47b5
+msgid "作为示例，我们选择部分参数作为超参训练:"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/GBDT/contents.md:31
+#: 38be35ca6901412fa7b066ebe70aee68
+msgid "根据模型的不同与参数类型的不同，也可以相应选择Constant设置常量、UniformIntegerHyperparameter为Int型参数进行优化。"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/GBDT/contents.md:33
+#: 24c59f877e194bc4be44dc50ae94715d
+msgid "定义目标函数"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/GBDT/contents.md:35
+#: 329ba1f25505496ca601d74302eb6443
+msgid "接下来，我们定义优化⽬标函数，设置最小化log loss为优化目标。"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/GBDT/contents.md:37
+#: 98d89f374ac24c11ad3e5c79b68adff8
+msgid ""
+"下面展示我们定义目标函数objective_function,并在目标函数中利用训练集训练HetuML提供的GBDT模型，利用验证集预测并计算优化log"
+" loss的过程:"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/GBDT/contents.md:71
+#: 1820614517f94b88961901dc44606b13
+msgid "执行优化"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/GBDT/contents.md:73
+#: b2ae7744b34c44aeb9e710731576a352
+msgid "定义好任务和⽬标函数以后，就可以调⽤自动化⻉叶斯优化框架SMBO执⾏优化。我们设置优化轮数（max_runs）为30，代表将对GBDT模型调参30轮。每轮最⼤验证时间（time_limit_per_trial）设置为180秒，超时的任务将被终⽌。优化结束后，可以打印优化结果。"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/GBDT/contents.md:86
+#: 6e1b7698ca6442e3925125c9a38dfffb
+msgid "打印结果如下："
+msgstr ""
+

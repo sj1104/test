@@ -1,0 +1,31 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/HetuML/AutoML/index.rst:5 8029f76923484e5eb92cf09a1dae5779
+msgid "AutoML examples"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/index.rst:2 6e24eee57cb142ad80fcfee39dd386f4
+msgid "AutoML Examples"
+msgstr ""
+
+#: ../../source/HetuML/AutoML/index.rst:3 39a902f12c184660ac47b65ba6a5d5f2
+msgid "This  module illustrates how to use AutoML module in HetuML."
+msgstr ""
+

@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/Tutorials/model/contents_en.md:1
+#: 2a0ddbdfa37d40b98622345e934e09e9
+msgid "Model zoo"
+msgstr ""
+
+#: ../../source/Tutorials/model/contents_en.md:3
+#: 0abe37f9aba24dc08cb52f04c54ffc9d
+msgid ""
+"Hetu provides various popular deep learning models implementations: CNN, "
+"Transformer, GNN, Embedding."
+msgstr ""
+
+#: ../../source/Tutorials/model/contents_en.md:6
+#: fa34304ae05b40fb90ac2793b100798d
+msgid "CNN"
+msgstr ""
+
+#: ../../source/Tutorials/model/contents_en.md:8
+#: 43a4da6033c84ff7bdba1a554050fb90
+msgid "We provide following models with specific datasets."
+msgstr ""
+
+#: ../../source/Tutorials/model/contents_en.md:15
+#: ../../source/Tutorials/model/contents_en.md:113
+#: ../../source/Tutorials/model/contents_en.md:387
+#: ../../source/Tutorials/model/contents_en.md:476
+#: 0aaae5617a5c4ccaaa3ecbd5f3edcf38 25458d3bd16b414abaed8b9cae341822
+#: 6b3d8df6cdfc43ed9c3be018f8d65633 fbcefa73014c448ba4e3d3d282f14b36
+msgid "Model Definition"
+msgstr ""
+
+#: ../../source/Tutorials/model/contents_en.md:16
+#: a429e9d8fb68431d9fcf56ae45f8cee9
+msgid "Taking AlexNet as an example, the specific model is defined as follows:"
+msgstr ""
+
+#: ../../source/Tutorials/model/contents_en.md:81
+#: ../../source/Tutorials/model/contents_en.md:375
+#: ../../source/Tutorials/model/contents_en.md:463
+#: ../../source/Tutorials/model/contents_en.md:528
+#: 9341c4ff9b6d417ea9cdbc5406ee79d7 ba57093554544187a07c75891e0ce813
+#: dffc5e492f81498ca295c85951e8d2dd ec96eeaff9804f92b64034782ca70b75
+msgid "Model Usage"
+msgstr ""
+
+#: ../../source/Tutorials/model/contents_en.md:82
+#: 6c1e622bba224135b14aaab14a4892ea
+msgid "Here are some examples of running scripts."
+msgstr ""
+
+#: ../../source/Tutorials/model/contents_en.md:89
+#: b88d4861146044a6b984b76968465b8d
+msgid "To train in PS setting, you need to launch scheduler and server first."
+msgstr ""
+
+#: ../../source/Tutorials/model/contents_en.md:91
+#: e8bc762c1eef4e74a01f127f3984fa1b
+msgid "You can change the setting in scripts. See mnist_mlp.sh below."
+msgstr ""
+
+#: ../../source/Tutorials/model/contents_en.md:109
+#: 591e167ca38a48f3b53437b3abe3fd6f
+msgid "Transformer"
+msgstr ""
+
+#: ../../source/Tutorials/model/contents_en.md:111
+#: 764862e9859341bd801ca5381599f6e7
+msgid "We provide Transformer model, the specific implementation is as follows:"
+msgstr ""
+
+#: ../../source/Tutorials/model/contents_en.md:376
+#: 3d8128b8fbc84e9a9689da15de028b91
+msgid "You can run Transformer with the following command:"
+msgstr ""
+
+#: ../../source/Tutorials/model/contents_en.md:381
+#: 9ac44d55ffb04dddb7a159c3bacff8fe
+msgid "To change the hyperparameters, please modify hparams.py file."
+msgstr ""
+
+#: ../../source/Tutorials/model/contents_en.md:384
+#: 53a16cd6bcb64e7296d339215387ae6f
+msgid "GNN"
+msgstr ""
+
+#: ../../source/Tutorials/model/contents_en.md:385
+#: 9362270db685484aacf5a1963f7272a5
+msgid ""
+"We provide a simple 2-layer GCN model, the specific implementation is as "
+"follows:"
+msgstr ""
+
+#: ../../source/Tutorials/model/contents_en.md:464
+#: 9583f0b306424e7280931091b6caa766
+msgid "You can run GNN model with the following command:"
+msgstr ""
+
+#: ../../source/Tutorials/model/contents_en.md:473
+#: eed5f0876b844405ae47ea2a41075bce
+msgid "Embedding"
+msgstr ""
+
+#: ../../source/Tutorials/model/contents_en.md:474
+#: af1900b4d8524ae8bfe8d081dadac7fc
+msgid "We provide 2 recommendation models: CTR and NCF."
+msgstr ""
+
+#: ../../source/Tutorials/model/contents_en.md:477
+#: 185a09b369174a24b4095c850defd137
+msgid "Taking NCF as an example, the specific model is defined as follows:"
+msgstr ""
+
+#: ../../source/Tutorials/model/contents_en.md:529
+#: d7ff367485804fc8b8d39d3a0b0dee9d
+msgid "You can run embedding models with the following command:"
+msgstr ""
+
+#: ../../source/Tutorials/model/contents_en.md:537
+#: 0b6e987ab9184557a96005ad2e81181c
+msgid "More examples are coming soon!"
+msgstr ""
+

@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/hetu.onnx.onnx_opset.rst:2 b5e0ba0be9a74ee6a0c3716b97bc0894
+msgid "hetu.onnx.onnx\\_opset package"
+msgstr ""
+
+#: ../../source/hetu.onnx.onnx_opset.rst:5 4fab510a5b254510a3b435cda6726d9d
+msgid "Submodules"
+msgstr ""
+
+#: ../../source/hetu.onnx.onnx_opset.rst:8 86501c223c8442aeb1b876dc4962f124
+msgid "hetu.onnx.onnx\\_opset.AddConst module"
+msgstr ""
+
+#: ../../source/hetu.onnx.onnx_opset.rst:16 b33894eb63254884b69c1fa29b9afdd6
+msgid "hetu.onnx.onnx\\_opset.AddElewise module"
+msgstr ""
+
+#: ../../source/hetu.onnx.onnx_opset.rst:24 6e63b653ebf04411876fd366ce9ebef6
+msgid "hetu.onnx.onnx\\_opset.BatchNorm module"
+msgstr ""
+
+#: ../../source/hetu.onnx.onnx_opset.rst:32 49844f4228954b7d95b94a2e52b39b1c
+msgid "hetu.onnx.onnx\\_opset.Concat module"
+msgstr ""
+
+#: ../../source/hetu.onnx.onnx_opset.rst:40 a3b725be1b3a482fa4bb4a05ff056668
+msgid "hetu.onnx.onnx\\_opset.Conv2d module"
+msgstr ""
+
+#: ../../source/hetu.onnx.onnx_opset.rst:48 5c044741ac3a46e1bbf6b01595fc2fd8
+msgid "hetu.onnx.onnx\\_opset.Division module"
+msgstr ""
+
+#: ../../source/hetu.onnx.onnx_opset.rst:56 d42120092de94e80afdabfd57e5418d3
+msgid "hetu.onnx.onnx\\_opset.Dropout module"
+msgstr ""
+
+#: ../../source/hetu.onnx.onnx_opset.rst:64 58728a9fb32343c6a1e363ed65560d58
+msgid "hetu.onnx.onnx\\_opset.Identity module"
+msgstr ""
+
+#: ../../source/hetu.onnx.onnx_opset.rst:72 8657580968764c6aac04e9e8fa555bda
+msgid "hetu.onnx.onnx\\_opset.MatrixMult module"
+msgstr ""
+
+#: ../../source/hetu.onnx.onnx_opset.rst:80 a0069ec2cc774ff6b193c8b9b971cf44
+msgid "hetu.onnx.onnx\\_opset.MultiplyConst module"
+msgstr ""
+
+#: ../../source/hetu.onnx.onnx_opset.rst:88 54907968aff942ef9adec31aa76d55ba
+msgid "hetu.onnx.onnx\\_opset.OneHot module"
+msgstr ""
+
+#: ../../source/hetu.onnx.onnx_opset.rst:96 f7106c46af414e3e95e42dba0e828eec
+msgid "hetu.onnx.onnx\\_opset.Opposite module"
+msgstr ""
+
+#: ../../source/hetu.onnx.onnx_opset.rst:104 438fa5aa958f463684c5b37e208e7356
+msgid "hetu.onnx.onnx\\_opset.Pad module"
+msgstr ""
+
+#: ../../source/hetu.onnx.onnx_opset.rst:112 b05d9ba417ed4a85ae2fdfa025e9f4e6
+msgid "hetu.onnx.onnx\\_opset.Pool module"
+msgstr ""
+
+#: ../../source/hetu.onnx.onnx_opset.rst:120 6631babf081240b6a041c5c9643d6bcf
+msgid "hetu.onnx.onnx\\_opset.Reduces module"
+msgstr ""
+
+#: ../../source/hetu.onnx.onnx_opset.rst:128 6d930df7c82d48a8a6040121c5d53cb1
+msgid "hetu.onnx.onnx\\_opset.Relu module"
+msgstr ""
+
+#: ../../source/hetu.onnx.onnx_opset.rst:136 a93248255b054db48781ca65e3ff7dcd
+msgid "hetu.onnx.onnx\\_opset.Reshape module"
+msgstr ""
+
+#: ../../source/hetu.onnx.onnx_opset.rst:144 92f666e42f244b15b778b0006e8bcb83
+msgid "hetu.onnx.onnx\\_opset.Softmax module"
+msgstr ""
+
+#: ../../source/hetu.onnx.onnx_opset.rst:152 5d5b2a5e58f044e4be3b3bf75eac86fd
+msgid "hetu.onnx.onnx\\_opset.Sqrt module"
+msgstr ""
+
+#: ../../source/hetu.onnx.onnx_opset.rst:160 0d88ced872914d9cb4bf832c56402ed1
+msgid "hetu.onnx.onnx\\_opset.Tanh module"
+msgstr ""
+
+#: ../../source/hetu.onnx.onnx_opset.rst:168 772d3abe9715416e876d394af97dbcd0
+msgid "hetu.onnx.onnx\\_opset.Transpose module"
+msgstr ""
+
+#: ../../source/hetu.onnx.onnx_opset.rst:176 a1cc5553ac8c4f1ea946d9e33d698987
+msgid "hetu.onnx.onnx\\_opset.Variable module"
+msgstr ""
+
+#: ../../source/hetu.onnx.onnx_opset.rst:184 738448e7b2384dbcbb19ff590bb4894d
+msgid "hetu.onnx.onnx\\_opset.Where module"
+msgstr ""
+
+#: ../../source/hetu.onnx.onnx_opset.rst:192 b82aca806ad141eeb3a9f7579a4adc5e
+msgid "hetu.onnx.onnx\\_opset.general module"
+msgstr ""
+
+#: ../../source/hetu.onnx.onnx_opset.rst:200 ecc06d928aac4976976611b2c42bc78c
+msgid "Module contents"
+msgstr ""
+

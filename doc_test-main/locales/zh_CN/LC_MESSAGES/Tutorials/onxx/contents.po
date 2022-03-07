@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/Tutorials/onxx/contents.md:1 28e178cfd2d74dfa9e916a179144c2c6
+msgid "模型和ONNX协议间的导入导出"
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents.md:3 ec7f70037d684789a73b00843d414955
+msgid "一、 简介"
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents.md:5 f785726f13e44dc7962ea3efa62842f3
+msgid ""
+"ONNX (Open Neural Network Exchange) "
+"是一种开源的文件格式，同时也是一种开放式的规范，可以用于存储训练好的模型。使得我们的算法和模型可以在不同的框架之间迁移。"
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents.md:7 2ccaba2d64184835bdfda27d8bbfc4cc
+msgid ""
+"通过ONNX格式，Hetu模型可以转化为ONNX格式，并使用ONNX "
+"Runtime等框架进行推理。同时Hetu也支持ONNX转换为Hetu框架模型，并直接用于训练和推理。"
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents.md:9 ac9c216f42b8466a92ea7c088b860554
+msgid "模型和ONNX协议之间的导入导出API均放置在hetu.onnx内，你可以进行查询。其中Hetu模型转ONNX协议由hetu.onnx.hetu2onnx.export实现，ONNX协议转Hetu模型由hetu.onnx.onnx2hetu.load_onnx实现。"
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents.md:11 c365c35cc97842b28c4e67302f91fb24
+msgid "下面分别介绍Hetu模型和ONNX之间的导入导出。"
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents.md:13 9f286856bc6542e09c545a3784ae36f4
+msgid "二、 模型导出为ONNX协议"
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents.md:15 b85fd0b74918424a98bcade3278fe196
+msgid "下面以CNN模型为例说明如何将模型转换为ONNX协议。"
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents.md:17 ea52e674fa9e4561a399e36257599aba
+msgid "2.1模型转出ONNX协议"
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents.md:19 3da95e3850624721a61f71bb6d33b8c6
+msgid "模型转换为ONNX协议，首先会根据ONNX的算子协议，将Hetu的算子一一映射为ONNX的算子，而后建图并转换为模型格式保存起来。"
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents.md:57 b3e112c665cd4a9c9e25166dfb3bab79
+msgid "2.2 ONNXRuntime推理"
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents.md:59 065adfa167e541fd9aa35a91f3985ebf
+msgid "将模型转换为ONNX协议之后，你可以使用ONNXRuntime进行推理，并与Hetu的结果进行比较验证。"
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents.md:79 e4882f0142f84536b88f5c6d5de48048
+msgid "三、 ONNX协议导入Hetu框架"
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents.md:81 1d9fb8d2bea940f9a9ca2a19c1a33325
+msgid "本节以一个Tensorflow的CNN模型转换的ONNX格式为例，说明如何将ONNX协议导入到Hetu框架中。"
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents.md:83 a2792934f1ca4aed9c4d512f61891011
+msgid "3.1 将TF模型保存为ONNX协议"
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents.md:85 07e878447a5a40728745d309be489ac8
+msgid "使用Tensorflow建立模型，利用tf2onnx将其转换为ONNX协议。"
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents.md:155 5e684f792f5840b6a45c8799baab4ae7
+msgid "3.2 将 ONNX协议转入Hetu框架"
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents.md:157 a5e41e7c9e4c4217a4dbce2e046b231c
+msgid "将ONNX协议转入Hetu框架，你可以直接使用hetu.onnx2hetu.load_onnx即可，得到的executor可以用于后续的训练和推理。"
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents.md:164 0e742b825a4d48d484d1dcf4a3e926b8
+msgid "3.3 转换结果对比"
+msgstr ""
+
+#: ../../source/Tutorials/onxx/contents.md:166 f65dcb6b6d9749d594be4ba67def06a8
+msgid "使用mnist数据集对上述转换之前的ONNX协议和转换之后的模型进行推理比较，验证转换正确性。其中转换之前的推理使用ONNXRuntime进行。"
+msgstr ""
+

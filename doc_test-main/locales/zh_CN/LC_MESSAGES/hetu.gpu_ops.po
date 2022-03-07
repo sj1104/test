@@ -1,0 +1,219 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/hetu.gpu_ops.rst:2 8f63c95373c2482289c93342fe852eef
+msgid "hetu.gpu\\_ops package"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:5 2ca8c5c4626b451aae98978fb1166c78
+msgid "Submodules"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:8 a7185116ac944548a3a0f0e526cc4e4c
+msgid "hetu.gpu\\_ops.AddConst module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:16 b318c8f821024b9eb975af0f9ad69f88
+msgid "hetu.gpu\\_ops.AddElewise module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:24 806c04258af442529e093b3c8aecbd4f
+msgid "hetu.gpu\\_ops.AllReduceCommunicate module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:32 31ccb6ea2a55478cb9e71003783ebd8a
+msgid "hetu.gpu\\_ops.AvgPool module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:40 8540177af1704d008d3d766ebed445dc
+msgid "hetu.gpu\\_ops.BatchMatrixMult module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:48 494c360f797743ca828234d1780ceb1d
+msgid "hetu.gpu\\_ops.BatchNorm module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:56 2dff926d79f549108119a34f7fc068c5
+msgid "hetu.gpu\\_ops.BinaryCrossEntropy module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:64 610139f0d4994ecbaa7849e612339689
+msgid "hetu.gpu\\_ops.Broadcast module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:72 4e697c0d46de4f3988be8a4f6e5414d9
+msgid "hetu.gpu\\_ops.BroadcastShape module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:80 1c1d8a664b2349efb8573824e8966ad8
+msgid "hetu.gpu\\_ops.Concat module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:88 6262366929574791b315a90884cad3d4
+msgid "hetu.gpu\\_ops.Conv2d module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:96 c025097dd23641e39303d7fe941faccc
+msgid "hetu.gpu\\_ops.Conv2dBroadcast module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:104 677ee3f995e74cb78a9474ab9108b391
+msgid "hetu.gpu\\_ops.Conv2dReduceSum module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:112 9b67c7410c23428d88ea9f660fb21e2a
+msgid "hetu.gpu\\_ops.CuSparse module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:120 8e5fe5cb081d4366872d1fe1a68aac03
+msgid "hetu.gpu\\_ops.DataTransfer module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:128 5770ee2947d84409b3768374d1b0281f
+msgid "hetu.gpu\\_ops.DistGCN\\_15d module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:136 243cfdf77e4a40a68a7e77e0c79d8c7d
+msgid "hetu.gpu\\_ops.Division module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:144 53990c31835c46b3ba0fbc14c0962b91
+msgid "hetu.gpu\\_ops.Dropout module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:152 5e870de668044b178305950a2028d60c
+msgid "hetu.gpu\\_ops.EmbeddingLookUp module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:160 847c3500cb9e43c09708edbb63590ad1
+msgid "hetu.gpu\\_ops.LayerNorm module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:168 610efa7f8f7247e4b4abc29fd31999a7
+msgid "hetu.gpu\\_ops.MatrixDot module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:176 706affbe506445118ca0625f420c63ba
+msgid "hetu.gpu\\_ops.MatrixMult module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:184 5b692b4678a440c0aa54ab5341b97802
+msgid "hetu.gpu\\_ops.MaxPool module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:192 f3266e83a5504b3b9be43cb1b49fe14e
+msgid "hetu.gpu\\_ops.MultiplyConst module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:200 a5650c6b7f724913b1b6c31750364ef9
+msgid "hetu.gpu\\_ops.MultiplyElewise module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:208 4b70cf3ee8a34fa78ae14b6b7df60d26
+msgid "hetu.gpu\\_ops.Node module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:216 f876354eb1d348138c7c7015bd1ea120
+msgid "hetu.gpu\\_ops.OneHot module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:224 d412a6775c6f49ad8df4850328d4e093
+msgid "hetu.gpu\\_ops.OnesLike module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:232 17bfee1cbfd64c6d9b0096931e8fbfe4
+msgid "hetu.gpu\\_ops.Opposite module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:240 8c66d89f4c9745dda3a2f8ae2ecd9793
+msgid "hetu.gpu\\_ops.Pad module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:248 2cf6a90598ae4131ba5b3c026be2f9a7
+msgid "hetu.gpu\\_ops.ParameterServerCommunicate module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:256 9e11da5b45b74b0fb6f5880695a52d75
+msgid "hetu.gpu\\_ops.ReduceMean module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:264 4dbb555940874a01b35540be8f4890c8
+msgid "hetu.gpu\\_ops.ReduceSum module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:272 551d95a4568d45ceafa83dd243a99c0f
+msgid "hetu.gpu\\_ops.ReduceSumAxisZero module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:280 1596fcc4a9c542d7843750a0f4a8ee2d
+msgid "hetu.gpu\\_ops.Relu module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:288 9877ed3bc8e04b99aaa9d1531ad4b5de
+msgid "hetu.gpu\\_ops.Reshape module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:296 4f9f1d7dd9884d49ae8ce086c14b8c96
+msgid "hetu.gpu\\_ops.Sigmoid module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:304 3f3fa64c0ee34baba918c06ff2841319
+msgid "hetu.gpu\\_ops.Slice module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:312 0e45f642794b47cb941aaa76d939aa65
+msgid "hetu.gpu\\_ops.Softmax module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:320 1e96456431d941a1ba6f304f2a62257b
+msgid "hetu.gpu\\_ops.SoftmaxCrossEntropy module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:328 ae0d6a940e674048bf89619428024dfc
+msgid "hetu.gpu\\_ops.Sqrt module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:336 17454c93282d4d5f95957015a1f63794
+msgid "hetu.gpu\\_ops.Tanh module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:344 6f3ae42d6573462bbdcc4aef618f9b23
+msgid "hetu.gpu\\_ops.Transpose module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:352 5cb10b279a904ac793cfd2aab14e5b18
+msgid "hetu.gpu\\_ops.Variable module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:360 618f7f764a894555b832afa946924f1f
+msgid "hetu.gpu\\_ops.Where module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:368 ff6404381dd94e7f9a680e23884dc14b
+msgid "hetu.gpu\\_ops.ZerosLike module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:376 49466809b54c42acad89049bdb21b13b
+msgid "hetu.gpu\\_ops.executor module"
+msgstr ""
+
+#: ../../source/hetu.gpu_ops.rst:384 80ae1551647849faa5e1c5520a396eb0
+msgid "Module contents"
+msgstr ""
+

@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/Overview/design.md:1 e8867116d9b34bcdad1872169e0af17b
+msgid "Design"
+msgstr ""
+
+#: ../../source/Overview/design.md:4 19393709d62746a98aecba1ea6c94037
+msgid ""
+"The development of deep learning (DL) algorithms and emerging DL models "
+"bring great challenges to underlying systems. Traditional DL systems, "
+"such as TensorFlow and PyTorch, have shown superior performance on "
+"various deep learning workloads due to their general characteristics and "
+"rich ecosystems. However, since the explosive growth of the scale of DL "
+"models and datasets, the distributed scalability is becoming the core "
+"competitiveness of DL systems. Although existing DL systems have provided"
+" some customized distributed training interfaces, they are still facing "
+"severe challenges and obstacles:"
+msgstr ""
+
+#: ../../source/Overview/design.md:6 504ca7c9fca94678b88a02848a4da569
+msgid ""
+"Functionality: The supported communication architecture, parallel "
+"strategy and consistency protocal are limited."
+msgstr ""
+
+#: ../../source/Overview/design.md:9 4eab2e7922a3424a86a982cc8ef1ff65
+msgid ""
+"Complexity: The implementation of communication and compuation is highly "
+"coupled and hard to follow and optimize."
+msgstr ""
+
+#: ../../source/Overview/design.md:12 908e98e1bedb4778875f65678e475fb1
+msgid ""
+"Usability: The deployment of distributed training paradigms requires "
+"human expert knowledge for efficiency."
+msgstr ""
+
+#: ../../source/Overview/design.md:15 716139004ece4f54ae2c969951b13ebf
+msgid ""
+"Besides, they are also suffering from the efficiency and scalability "
+"bottlenecks for large-scale distributed training. These observations "
+"motivate us to break the current system abstraction, make a novel design "
+"to handle all the above concerns and build a high-performance distributed"
+" DL system."
+msgstr ""
+
+#: ../../source/Overview/design.md:17 84297e690cff45f9ac800c3fc757ee46
+msgid ""
+"Hetu inherits the concept of data-flow graph (DFG) from existing deep "
+"learning frameworks, with operations as vertices and data dependencies as"
+" edges. The operation vertices not only represent computation kernels, "
+"but also consist of communication operators. Moreover, we provide a "
+"three-level representation of the DFG to describe and optimize "
+"distributed training programs."
+msgstr ""
+
+#: ../../source/Overview/design.md:19 e2a28760ffa547918490ed0e5d1048ec
+msgid ""
+"Targeting on these above challenges, Hetu has the following advanced "
+"features:"
+msgstr ""
+
+#: ../../source/Overview/design.md:21 d619c90b3f7d4af399334e3e9668393f
+msgid ""
+"Functionality: Hetu supports various communication architectures, "
+"parallel strategies and consistency protocals."
+msgstr ""
+
+#: ../../source/Overview/design.md:104 bbbc16ef32c945d6851ba5c189b5619f
+msgid ""
+"Complexity: Hetu decouples the communication and compuation procedures "
+"into separate operators and applies optional dependencies and "
+"asynchronous execution logic for high performance."
+msgstr ""
+
+#: ../../source/Overview/design.md:107 533e3a09cc1c454fb543452a3180bc82
+msgid ""
+"Usability: Hetu provides semi-automatical parallel training interfaces "
+"for human experts and fully-automatical parallel training functionality "
+"for zero-knowledge users."
+msgstr ""
+

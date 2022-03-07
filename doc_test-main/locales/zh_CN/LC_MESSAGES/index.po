@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Peking University
+# This file is distributed under the same license as the Hetu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hetu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-04 13:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/index.rst:59 998aba77290d4e959d5bcf6e90ea3dd1
+msgid "Overview"
+msgstr ""
+
+#: ../../source/index.rst:66 25ecd8182f6e4925962976cbdafd089e
+msgid "Features"
+msgstr ""
+
+#: ../../source/index.rst:76 f2124326bce848658b215499e81d1233
+msgid "Tutorials"
+msgstr ""
+
+#: ../../source/index.rst:83 4987d42ce1bd46d996038e8674cebe10
+msgid "Development plan"
+msgstr ""
+
+#: ../../source/index.rst:7 c80c0935e3a54321a87e4524f895d15b
+msgid "Welcome to Hetu!"
+msgstr ""
+
+#: ../../source/index.rst:11 cd03769a9eb14e3d86faa9a2134482bd
+msgid ""
+"**Hetu** is a high-performance distributed deep learning system, "
+"developed by the team of Professor `Bin Cui "
+"<http://net.pku.edu.cn/~cuibin/index.html>`_ from Peking University (past"
+" work targets distributed ML systems, including `Angel "
+"<https://github.com/Tencent/Angel-ML>`_). The system is completely "
+"decoupled from the existing DL systems. It takes account of both high "
+"availability in industry and innovation in academia, which has a number "
+"of advanced characteristics:"
+msgstr ""
+
+#: ../../source/index.rst:13 547f0671413541f292298db3f26922d3
+msgid ""
+"**Applicability**. DL model definition with standard dataflow graph; many"
+" basic CPU and GPU operators; efficient implementation of more than "
+"plenty of DL models and at least popular 10 ML algorithms."
+msgstr ""
+
+#: ../../source/index.rst:15 e38ee7bc52e247f989dd54caab66fee0
+#, python-format
+msgid ""
+"**Efficiency**. Achieve at least 30% speedup compared to TensorFlow on "
+"DNN, CNN, RNN benchmarks."
+msgstr ""
+
+#: ../../source/index.rst:17 0e71a3511eb448148ebdc6e99257e8e3
+msgid ""
+"**Flexibility**. Supporting various parallel training protocols and "
+"distributed communication architectures, such as Data/Model/Pipeline "
+"parallel; Parameter server & AllReduce."
+msgstr ""
+
+#: ../../source/index.rst:19 1381ffbb25314e388e61834c88fd8993
+msgid ""
+"**Scalability**. Deployment on more than 100 computation nodes; Training "
+"giant models with trillions of model parameters, e.g., Criteo Kaggle, "
+"Open Graph Benchmark"
+msgstr ""
+
+#: ../../source/index.rst:21 252b76d568264d00a42b290d49b518f6
+msgid ""
+"**Agility**. Automatically ML pipeline: feature engineering, model "
+"selection, hyperparameter search."
+msgstr ""
+
+#: ../../source/index.rst:23 0eeee4cc92de4e26a8e8979adc6696ff
+msgid ""
+"This project is supported by the National Key Research and Development "
+"Program of China, and some related results have been published on high-"
+"level CCF-A conferences. The project is arranged to be open sourced "
+"recently at: https://github.com/PKU-DAIR/Hetu."
+msgstr ""
+
+#: ../../source/index.rst:25 a86a1e42f12743e4b7569ca64263fcf9
+msgid ""
+"We welcome everyone interested in machine learning or distributed systems"
+" to contribute code, create issues or pull requests. Please refer to "
+"Contribution Guide and :doc:`plan` for more details."
+msgstr ""
+
+#: ../../source/index.rst:53 652675c923494a5c9e772c5e840f413a
+msgid "News"
+msgstr ""
+
+#: ../../source/index.rst:54 c94bbd4ec3ee44089663253e2ec50a8e
+msgid ""
+"2021.08.06 :red:`[NEW]` We anounced the cooperation with Tencent for "
+"Angel 4.0 and Hetu: `link "
+"<https://mp.weixin.qq.com/s/03GabpMzwCi7MLvDbCGloQ>`_."
+msgstr ""
+
+#: ../../source/index.rst:55 fd03b8cf91b1427f9f7a8f0f25621bb3
+msgid ""
+"2021.07.31 :red:`[NEW]` We provided a symposium on ACM TURC 2021 to "
+"introduce Hetu: `link "
+"<https://www.acmturc.com/2021/en/SIGMOD_China.html>`_."
+msgstr ""
+
+#: ../../source/index.rst:56 8bf3b3d84ab0416087398a2f88c5ee4d
+msgid ""
+"2021.07.28 :red:`[NEW]` We launched a contest with openGCC for Hetu "
+"development: `link "
+"<https://www.educoder.net/competitions/index/gcc_2021_projects_type1>`_."
+msgstr ""
+
+#: ../../source/index.rst:57 a6e892a64c644e24a82f4a18847d2d90
+msgid ""
+"2021.07.18 :red:`[NEW]` We released Hetu on GitHub: https://github.com"
+"/PKU-DAIR/Hetu."
+msgstr ""
+
